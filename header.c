@@ -17,3 +17,13 @@ void loop(int a){
 		printf("\n");
 	}
 }
+
+
+void loop2(int a){
+	int i=0;
+        while (i<a){
+                printf("%d",i);
+		i++;
+                printf("\n");
+        }
+}
