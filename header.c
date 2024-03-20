@@ -27,3 +27,23 @@ void loop2(int a){
                 printf("\n");
         }
 }
+
+
+void aff(int a){
+	printf("La valeur de la variable est %d",a);
+	printf("\nL'adresse de la varriable est %p \n",&a);
+}
+
+void sum (){
+	int a;
+	int b;
+	printf("Entrez la valeur de a : ");
+	scanf("%d",&a);
+	printf("\nEntrez la valeur de b : ");
+        scanf("%d",&b);
+	printf("\nResultat de a+b %d",a+b);
+	printf("\n");
+
+
+
+}
