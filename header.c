@@ -47,3 +47,45 @@ void sum (){
 
 
 }
+
+
+void value_list(int v){
+	int a[14]={1,2,3,4,5,6,7,8,9,10,11,12,13,134};
+	int q=0;
+	for (int i=0;i<14;i++){
+		if (v==a[i]){
+			printf("la valeur est dans le tableau a la position %d\n",i);
+			break;
+		}
+		else {
+			q++;
+		}
+	}
+	if (q==14){
+		printf("la valeur n'est pas dans le tableau\n");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
