@@ -67,12 +67,25 @@ void value_list(int v){
 }
 
 
+void binary_search(int target){
+	int a[14]={1,2,3,4,5,6,7,8,9,10,11,12,13,134};
+	int gauche=0;
+	int droite=14;
 
-
-
-
-
-
+	while (gauche<droite){
+		int milieu=(gauche+droite)/2+1;
+		if (a[milieu]==target){
+			printf("la valeur est dans le tableau a la position %d\n",milieu);
+	                break;
+		}
+		if (a[milieu]<target){
+			gauche = milieu+1;
+		}
+		else {
+			droite = milieu -1;
+		}
+	}
+}
 
 
 
